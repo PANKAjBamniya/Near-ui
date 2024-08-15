@@ -250,21 +250,21 @@ body{
     .hero-contant{
         width: 100%;
         height: auto;
+        flex-direction: column;
+        
     }
     .left-contant{
         width: 20%;
         height: auto;
-        align-items: center;
-        padding-left: 0;
-        flex-direction: column;
-        justify-content: center;
+        padding: 30px;
     }
     .right-contant{
-        width: 70%;
+        width: 90%;
+        top: 0;
     }
     .right-contant h1{
         /* width: 100%; */
-        font-size: 1em;
+        font-size: .9em;
     }
     .right-contant p{
         font-size: .9em;
